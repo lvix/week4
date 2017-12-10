@@ -11,10 +11,12 @@ try:
         ax = df.plot()
         ax.set_xlabel('User ID')
         ax.set_ylabel('Study Time')
-        ax.set_title('Study Data')
+        ax.set_title('StudyData')
 
         plt.show()
 except:
+    print('error')
     pass
+
 
 
